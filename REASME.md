@@ -1,4 +1,4 @@
-# Loja Online - Titulo para a Campanha de Frete
+# Loja Online - Titulo para a Campanha Atual
 
 ## Contato
 duvidas: contato@loja.com.br
