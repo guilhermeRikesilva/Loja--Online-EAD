@@ -8,7 +8,8 @@ jobs:
   testes:
     runs-on: ubuntu-Latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Instalar dependências
-    - run: npm install 
-    - 
+       - uses: actions/checkout@v4
+       - name: Instalar dependências
+          run: npm install 
+       - name: Rodar os testes
+          run: npm test

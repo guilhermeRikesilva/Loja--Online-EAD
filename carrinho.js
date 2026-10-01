@@ -3,7 +3,7 @@ function calcularTotalCarrinho(itens) {
             throw new Error('itens precisa ser um array');
     }
 
-    return itens.reduce((total. item) => {
+    return itens.reduce((total, item) => {
         return total + item.preco * item.quantidade;
     }, 0);
 }
