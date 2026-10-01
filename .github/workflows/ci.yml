@@ -1,15 +1,17 @@
-name: CI 
+name: CI
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   testes:
-    runs-on: ubuntu-Latest
+    runs-on: ubuntu-latest
     steps:
-       - uses: actions/checkout@v4
-       - name: Instalar dependências
-          run: npm install 
-       - name: Rodar os testes
-          run: npm test
+      - uses: actions/checkout@v4
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Rodar os testes
+        run: npm test
